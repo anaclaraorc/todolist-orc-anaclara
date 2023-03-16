@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+html, body, #root{
+  background-color: cornflowerblue;
+}
+
+:root {/*cores e tamanhos da fonte*/
+  --big-font: 7rem;
+  --big-font2:5rem;
+  --h2-font:2rem;
+  --p-font:1rem;
+}
+.App h2 {
+  font-size: var(--h2-font);
+  align-items: center;
+}
+
+
